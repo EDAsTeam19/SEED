@@ -8,3 +8,5 @@ class element(object):
         self.Element[index]=val
     def getElement(self,index): # Method that allows to get values of the vector element 
         return self.Element[index]
+    def getDim(): # return the dimension of the vector lement
+        return self.dim
